@@ -505,7 +505,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
     <script type="text/javascript" id="jquery-core-js-extra">
         /* <![CDATA[ */
-        var Sigma 1 Capital_data = { "ajaxurl": "https:\/\/wp1.themevibrant.com\/newwp\/fxvibe\/wp-admin\/admin-ajax.php", "nonce": "37600f459c" };
+        var fxvibe_data = { "ajaxurl": "https:\/\/wp1.themevibrant.com\/newwp\/fxvibe\/wp-admin\/admin-ajax.php", "nonce": "37600f459c" };
         /* ]]> */
     </script>
     <script type="text/javascript"
@@ -647,14 +647,17 @@
 
             <style>
                 @media (max-width:786px) {
-                    #headerMain{
+                    #headerMain {
                         display: none !important;
                     }
-                    .mobile-menu .navigation li > a:before{
+
+                    .mobile-menu .navigation li>a:before {
                         border-left: 0;
                     }
+                    #navHidden-phone{
+                        display: none !important;;
+                    }
                 }
-
             </style>
 
             <!-- header-lower -->
@@ -663,8 +666,8 @@
                     <div class="outer-box">
 
                         <div class="logo-box">
-                            <figure class="logo"><a href="/" title="Sigma 1 Capital"><img src="/asset/logo-dark.png" alt="logo"
-                                        style="width: 150px !important;"></a></figure>
+                            <figure class="logo"><a href="/" title="Sigma 1 Capital"><img src="/asset/logo-dark.png"
+                                        alt="logo" style="width: 150px !important;"></a></figure>
                         </div>
 
                         <div class="menu-area clearfix">
@@ -676,116 +679,116 @@
                             </div>
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-                                    <ul class="navigation clearfix">
-
-
-                                        <ul id="headerMain" class="navigation clearfix">
-                                            <li id="menu-item-29"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-29 dropdown current">
-                                                <a href="/" onclick="return true">Home<span
-                                                        class="menu-item_plus"></span></a>
-                                                
-                                                <!-- <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div> -->
-                                            </li>
-                                            <li id="menu-item-58"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-58 dropdown">
-                                                <a href="/about/" onclick="return true">About<span
-                                                        class="menu-item_plus"></span></a>
+                                    <ul id="navHidden-phone" class="navigation clearfix ">
+                                        <li id="menu-item-29"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-29 dropdown current">
+                                            <a href="/" onclick="return true">Home<span
+                                                    class="menu-item_plus"></span></a>
+                                           
+                                            <!-- <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div> -->
+                                        </li>
+                                        <li id="menu-item-58"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-58 dropdown">
+                                            <a href="#" onclick="return true">Accounts<span
+                                                    class="menu-item_plus"></span></a>
+                                            <ul class="sub-menu submenu menu-sub-content">
+                                                <li id="menu-item-3171"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3171">
+                                                    <a href="/account-type.html"
+                                                        onclick="return true">Account Type<span
+                                                            class="menu-item_plus"></span></a></li>
+                                                <li id="menu-item-3203"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3203">
+                                                    <a href="/deposit&withdraw.html"
+                                                        onclick="return true">Deposit and Withdraw<span
+                                                            class="menu-item_plus"></span></a></li>
                                                
-                                                <!-- <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div> -->
-                                            </li>
-                                            <li id="menu-item-59"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-59 dropdown">
-                                                <a href="/trading-account/" onclick="return true">Trading<span
-                                                        class="menu-item_plus"></span></a>
-                                                <!-- <ul class="sub-menu submenu menu-sub-content">
-                                                    <li id="menu-item-3259"
-                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3259 dropdown">
-                                                        <a href="#" onclick="return true">Accounts<span
-                                                                class="menu-item_plus"></span></a>
-                                                        <ul class="sub-menu submenu menu-sub-content">
-                                                            <li id="menu-item-3286"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3286">
-                                                                <a href="/trading-account/"
-                                                                    onclick="return true">Accounts Overview<span
-                                                                        class="menu-item_plus"></span></a></li>
-                                                            <li id="menu-item-3809"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3809">
-                                                                <a href=""
-                                                                    onclick="return true">Demo Account<span
-                                                                        class="menu-item_plus"></span></a></li>
-                                                            <li id="menu-item-3858"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3858">
-                                                                <a href=""
-                                                                    onclick="return true">Individual Account<span
-                                                                        class="menu-item_plus"></span></a></li>
-                                                            <li id="menu-item-3857"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3857">
-                                                                <a href=""
-                                                                    onclick="return true">Professional Account<span
-                                                                        class="menu-item_plus"></span></a></li>
-                                                            <li id="menu-item-3891"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3891">
-                                                                <a href=""
-                                                                    onclick="return true">VIP Account<span
-                                                                        class="menu-item_plus"></span></a></li>
-                                                            <li id="menu-item-3890"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3890">
-                                                                <a href=""
-                                                                    onclick="return true">ECN Account<span
-                                                                        class="menu-item_plus"></span></a></li>
-                                                        </ul>
-                                                        <div class="dropdown-btn"><span
-                                                                class="fas fa-angle-down"></span></div>
-                                                    </li>
+                                               
+                                            </ul>
+                                            <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div>
+                                        </li>
+                                        <li id="menu-item-59"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-59 dropdown">
+                                            <a href="#" onclick="return true">Platform<span
+                                                    class="menu-item_plus"></span></a>
+                                            <ul class="sub-menu submenu menu-sub-content">
+                                                <li id="menu-item-3259"
+                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3259 dropdown">
+                                                    <a href="https://apps.apple.com/us/app/metatrader-5/id413251709" onclick="return true">ISO<span
+                                                            class="menu-item_plus"></span></a>
+                                                   
+                                                    <div class="dropdown-btn"><span class="fas fa-angle-down"></span>
+                                                    </div>
+                                                </li>
+                                                <li id="menu-item-3301"
+                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3301 dropdown">
+                                                    <a href="#" onclick="return true">Desktop<span
+                                                            class="menu-item_plus"></span></a>
                                                   
-                                                </ul> -->
-                                                <!-- <ul class="sub-menu submenu menu-sub-content">
-                                                    <li id="menu-item-3259"
-                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3259 dropdown">
-                                                        <a href="/trading-account" onclick="return true">Trading Account<span
-                                                                class="menu-item_plus"></span></a>
-                                                       
-
-                                                    </li>
+                                                    <div class="dropdown-btn"><span class="fas fa-angle-down"></span>
+                                                    </div>
+                                                </li>
+                                                <li id="menu-item-3534"
+                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3534 dropdown">
+                                                    <a href="#" onclick="return true">Android<span
+                                                            class="menu-item_plus"></span></a>
                                                   
-                                                </ul> -->
-                                                <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div>
-                                            </li>
-                                            <li id="menu-item-60"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-60 dropdown">
-                                                <a href="/platform" onclick="return true">Platform<span
-                                                        class="menu-item_plus"></span></a>
-                                             
-                                            </li>
-                                            <li id="menu-item-61"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-61 dropdown">
-                                                <a href="/platform-tools/" onclick="return true">Platform &amp; Tools<span
-                                                        class="menu-item_plus"></span></a>
-                                              
-                                            </li>
-                                            <li id="menu-item-61"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-61 dropdown">
-                                                <a href="/monitoring/" onclick="return true">Monitoring<span
-                                                        class="menu-item_plus"></span></a>
-                                              
-                                            </li>
-                                         
-                                        </ul>
-
-
+                                                    <div class="dropdown-btn"><span class="fas fa-angle-down"></span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div>
+                                        </li>
+                                        <li id="menu-item-60"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-60 dropdown">
+                                            <a href="#" onclick="return true">Trading Tool<span
+                                                    class="menu-item_plus"></span></a>
+                                            <ul class="sub-menu submenu menu-sub-content">
+                                                <li id="menu-item-3593"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3593">
+                                                    <a href="/econimic-calender.html"
+                                                        onclick="return true">Economic Calendar<span
+                                                            class="menu-item_plus"></span></a></li>
+                                                <li id="menu-item-3626"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3626">
+                                                    <a href="view-instruments.html"
+                                                        onclick="return true">View Instruments<span
+                                                            class="menu-item_plus"></span></a></li>
+                                                
+                                            </ul>
+                                            <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div>
+                                        </li>
+                                        <li id="menu-item-61"
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-61 dropdown">
+                                            <a href="#" onclick="return true">About Us <span
+                                                    class="menu-item_plus"></span></a>
+                                            <ul class="sub-menu submenu menu-sub-content">
+                                                <li id="menu-item-3925"
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3925">
+                                                    <a href=""
+                                                        onclick="return true">Contact us<span
+                                                            class="menu-item_plus"></span></a></li>
+                                               
+                                            </ul>
+                                            <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div>
+                                        </li>
+                                        <li id="menu-item-4054"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4054">
+                                            <a href=""
+                                                onclick="return true">Login<span class="menu-item_plus"></span></a>
+                                        </li>
                                     </ul>
                                 </div>
                             </nav>
                         </div>
 
-                        <div class="menu-right-content">
+                        <!-- <div class="menu-right-content">
                             <div class="link-box">
                                 <div class="icon-box"><i class="flaticon-bandwidth"></i></div>
-                                <h6><a >Start
+                                <h6><a>Start
                                         <br>Evaluation <i class="flaticon-right-arrow"></i></a></h6>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -795,9 +798,8 @@
                 <div class="outer-container">
                     <div class="outer-box">
                         <div class="logo-box">
-                            <figure class="logo"><a href="/"
-                                    title="Sigma 1 Capital"><img src="/asset/logo-dark.png" alt="logo"
-                                        style=" width: 150px !important;"></a></figure>
+                            <figure class="logo"><a href="/" title="Sigma 1 Capital"><img src="/asset/logo-dark.png"
+                                        alt="logo" style=" width: 150px !important;"></a></figure>
                         </div>
                         <div class="menu-area clearfix">
                             <nav class="main-menu clearfix">
@@ -806,13 +808,13 @@
 
                             </nav>
                         </div>
-                        <div class="menu-right-content">
+                        <!-- <div class="menu-right-content">
                             <div class="link-box">
                                 <div class="icon-box"><i class="flaticon-bandwidth"></i></div>
                                 <h6><a href="">Start
                                         <br>Evaluation <i class="flaticon-right-arrow"></i></a></h6>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -839,7 +841,7 @@
                                 <ul class="navigation clearfix">
                                     <li id="menu-item-29"
                                         class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-29 dropdown current">
-                                        <a href="#" onclick="return true">Home<span class="menu-item_plus"></span></a>
+                                        <a href="/" onclick="return true">Home<span class="menu-item_plus"></span></a>
                                         <!-- <ul class="sub-menu submenu menu-sub-content">
                                             <li id="menu-item-24"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-14 current_page_item menu-item-24">
@@ -876,263 +878,94 @@
                                     </li>
                                     <li id="menu-item-58"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-58 dropdown">
-                                        <!-- <a href="#" onclick="return true">Account<span
-                                                class="menu-item_plus"></span></a> -->
-                                        <a href="/about/" onclick="return true">About<span class="menu-item_plus"></span></a>
-                                        <!-- <ul class="sub-menu submenu menu-sub-content">
+                                        <a href="#" onclick="return true">Account<span
+                                                class="menu-item_plus"></span></a>
+                                     
+                                         <ul class="sub-menu submenu menu-sub-content">
                                             <li id="menu-item-3171"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3171">
-                                                <a href="https://wp1.themevibrant.com/newwp/fxvibe/about-company/"
-                                                    onclick="return true">About Company<span
+                                                <a href="/account-type.html"
+                                                    onclick="return true">Account Tpes<span
                                                         class="menu-item_plus"></span></a>
                                             </li>
                                             <li id="menu-item-3203"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3203">
-                                                <a href="https://wp1.themevibrant.com/newwp/fxvibe/history/"
-                                                    onclick="return true">History<span
+                                                <a href="/deposit&withdraw.html"
+                                                    onclick="return true">Deposit And Withdraw<span
                                                         class="menu-item_plus"></span></a>
                                             </li>
-                                            <li id="menu-item-4235"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4235 dropdown">
-                                                <a href="#" onclick="return true">Team<span
-                                                        class="menu-item_plus"></span></a>
-                                                <ul class="sub-menu submenu menu-sub-content">
-                                                    <li id="menu-item-3225"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3225">
-                                                        <a href="https://wp1.themevibrant.com/newwp/fxvibe/team-members/"
-                                                            onclick="return true">Team Members<span
-                                                                class="menu-item_plus"></span></a>
-                                                    </li>
-                                                    <li id="menu-item-4236"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-team menu-item-4236">
-                                                        <a href="https://wp1.themevibrant.com/newwp/fxvibe/team/michal-starck/"
-                                                            onclick="return true">Team Details<span
-                                                                class="menu-item_plus"></span></a>
-                                                    </li>
-                                                </ul>
-                                                <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div>
-                                            </li>
-                                            <li id="menu-item-3256"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3256">
-                                                <a href="https://wp1.themevibrant.com/newwp/fxvibe/faqs/"
-                                                    onclick="return true">Faq’s<span class="menu-item_plus"></span></a>
-                                            </li>
-                                            <li id="menu-item-3258"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3258">
-                                                <a href="https://wp1.themevibrant.com/newwp/fxvibe/?p=123456abc"
-                                                    onclick="return true">404<span class="menu-item_plus"></span></a>
-                                            </li>
-                                        </ul> -->
-                                        <!-- <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div> -->
+                                           
+                                        </ul> 
+                                        <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div>
                                     </li>
                                     <li id="menu-item-59"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-59 dropdown">
-                                        <a href="/trading-account/" onclick="return true">Trading <span
+                                        <a href="#" onclick="return true">Platform <span
                                                 class="menu-item_plus"></span></a>
                                         <!-- <a href="#" onclick="return true">Trading<span
                                                 class="menu-item_plus"></span></a> -->
-                                        <!-- <ul class="sub-menu submenu menu-sub-content">
+                                        <ul class="sub-menu submenu menu-sub-content">
                                             <li id="menu-item-3259"
                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3259 dropdown">
-                                                <a href="#" onclick="return true">Accounts<span
+                                                <a href="https://apps.apple.com/us/app/metatrader-5/id413251709" onclick="return true">IOS<span
                                                         class="menu-item_plus"></span></a>
-                                                <ul class="sub-menu submenu menu-sub-content">
-                                                    <li id="menu-item-3286"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3286">
-                                                        <a href="https://wp1.themevibrant.com/newwp/fxvibe/accounts-overview/"
-                                                            onclick="return true">Accounts Overview<span
-                                                                class="menu-item_plus"></span></a>
-                                                    </li>
-                                                    <li id="menu-item-3809"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3809">
-                                                        <a href="https://wp1.themevibrant.com/newwp/fxvibe/accounts-overview/demo-account/"
-                                                            onclick="return true">Demo Account<span
-                                                                class="menu-item_plus"></span></a>
-                                                    </li>
-                                                    <li id="menu-item-3858"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3858">
-                                                        <a href="https://wp1.themevibrant.com/newwp/fxvibe/accounts-overview/individual-account/"
-                                                            onclick="return true">Individual Account<span
-                                                                class="menu-item_plus"></span></a>
-                                                    </li>
-                                                    <li id="menu-item-3857"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3857">
-                                                        <a href="https://wp1.themevibrant.com/newwp/fxvibe/accounts-overview/professional-account/"
-                                                            onclick="return true">Professional Account<span
-                                                                class="menu-item_plus"></span></a>
-                                                    </li>
-                                                    <li id="menu-item-3891"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3891">
-                                                        <a href="https://wp1.themevibrant.com/newwp/fxvibe/accounts-overview/vip-account/"
-                                                            onclick="return true">VIP Account<span
-                                                                class="menu-item_plus"></span></a>
-                                                    </li>
-                                                    <li id="menu-item-3890"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3890">
-                                                        <a href="https://wp1.themevibrant.com/newwp/fxvibe/accounts-overview/ecn-account/"
-                                                            onclick="return true">ECN Account<span
-                                                                class="menu-item_plus"></span></a>
-                                                    </li>
-                                                </ul>
-                                                <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div>
+                                               
                                             </li>
                                             <li id="menu-item-3301"
                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3301 dropdown">
-                                                <a href="#" onclick="return true">Platform<span
+                                                <a href="#" onclick="return true">Desktop<span
                                                         class="menu-item_plus"></span></a>
-                                                <ul class="sub-menu submenu menu-sub-content">
-                                                    <li id="menu-item-3324"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3324">
-                                                        <a href="https://wp1.themevibrant.com/newwp/fxvibe/metatrader-4/"
-                                                            onclick="return true">MetaTrader 4<span
-                                                                class="menu-item_plus"></span></a>
-                                                    </li>
-                                                    <li id="menu-item-3521"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3521">
-                                                        <a href="https://wp1.themevibrant.com/newwp/fxvibe/metatrader-5/"
-                                                            onclick="return true">MetaTrader 5<span
-                                                                class="menu-item_plus"></span></a>
-                                                    </li>
-                                                </ul>
-                                                <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div>
+                                             
                                             </li>
                                             <li id="menu-item-3534"
                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3534 dropdown">
-                                                <a href="#" onclick="return true">Education<span
+                                                <a href="#" onclick="return true">Android<span
                                                         class="menu-item_plus"></span></a>
-                                                <ul class="sub-menu submenu menu-sub-content">
-                                                    <li id="menu-item-3537"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3537">
-                                                        <a href="https://wp1.themevibrant.com/newwp/fxvibe/education/"
-                                                            onclick="return true">Education<span
-                                                                class="menu-item_plus"></span></a>
-                                                    </li>
-                                                    <li id="menu-item-5529"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5529">
-                                                        <a href="https://wp1.themevibrant.com/newwp/fxvibe/courses/"
-                                                            onclick="return true">Education Grid<span
-                                                                class="menu-item_plus"></span></a>
-                                                    </li>
-                                                    <li id="menu-item-5378"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-courses menu-item-5378">
-                                                        <a href="https://wp1.themevibrant.com/newwp/fxvibe/courses/navigating-the-tools-of-the-trade/"
-                                                            onclick="return true">Education Details<span
-                                                                class="menu-item_plus"></span></a>
-                                                    </li>
-                                                    <li id="menu-item-5172"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5172">
-                                                        <a href="https://wp1.themevibrant.com/newwp/fxvibe/student-registration/"
-                                                            onclick="return true">Student Registration<span
-                                                                class="menu-item_plus"></span></a>
-                                                    </li>
-                                                    <li id="menu-item-5173"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5173">
-                                                        <a href="https://wp1.themevibrant.com/newwp/fxvibe/instructor-registration/"
-                                                            onclick="return true">Instructor Registration<span
-                                                                class="menu-item_plus"></span></a>
-                                                    </li>
-                                                    <li id="menu-item-5171"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5171">
-                                                        <a href="https://wp1.themevibrant.com/newwp/fxvibe/dashboard/"
-                                                            onclick="return true">Dashboard<span
-                                                                class="menu-item_plus"></span></a>
-                                                    </li>
-                                                </ul>
-                                                <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div>
+
                                             </li>
-                                        </ul> -->
-                                        <!-- <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div> -->
+                                        </ul> 
+                                        <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div>
                                     </li>
                                     <li id="menu-item-60"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-60 dropdown">
                                         <!-- <a href="#" onclick="return true">Services<span
                                                 class="menu-item_plus"></span></a> -->
-                                        <a href="/platform/" onclick="return true">Platform<span
+                                        <a href="#" onclick="return true">Trading Tools<span
                                                 class="menu-item_plus"></span></a>
-                                        <!-- <ul class="sub-menu submenu menu-sub-content">
+                                         <ul class="sub-menu submenu menu-sub-content">
                                             <li id="menu-item-3593"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3593">
-                                                <a href="https://wp1.themevibrant.com/newwp/fxvibe/services/"
-                                                    onclick="return true">Services Overview<span
+                                                <a href="/econimic-calender.html"
+                                                    onclick="return true"> Economic Calendar<span
                                                         class="menu-item_plus"></span></a>
                                             </li>
                                             <li id="menu-item-3626"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3626">
-                                                <a href="https://wp1.themevibrant.com/newwp/fxvibe/services/currency-pairs/"
-                                                    onclick="return true">Currency Pairs<span
+                                                <a href="/view-instruments.html"
+                                                    onclick="return true">View Instruments<span
                                                         class="menu-item_plus"></span></a>
                                             </li>
-                                            <li id="menu-item-3729"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3729">
-                                                <a href="https://wp1.themevibrant.com/newwp/fxvibe/services/trading-accounts/"
-                                                    onclick="return true">Trading Accounts<span
-                                                        class="menu-item_plus"></span></a>
-                                            </li>
-                                            <li id="menu-item-3739"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3739">
-                                                <a href="https://wp1.themevibrant.com/newwp/fxvibe/services/platform-tools/"
-                                                    onclick="return true">Platform &amp; Tools<span
-                                                        class="menu-item_plus"></span></a>
-                                            </li>
-                                            <li id="menu-item-3745"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3745">
-                                                <a href="https://wp1.themevibrant.com/newwp/fxvibe/services/monitoring-support/"
-                                                    onclick="return true">Monitoring &amp; Support<span
-                                                        class="menu-item_plus"></span></a>
-                                            </li>
-                                            <li id="menu-item-3751"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3751">
-                                                <a href="https://wp1.themevibrant.com/newwp/fxvibe/services/education-training/"
-                                                    onclick="return true">Education &amp; Training<span
-                                                        class="menu-item_plus"></span></a>
-                                            </li>
-                                        </ul> -->
-                                        <!-- <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div> -->
+                                            
+                                        </ul>
+                                        <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div>
                                     </li>
                                     <li id="menu-item-61"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-61 dropdown">
-                                        <a href="/platform-tools/" onclick="return true">PlatformTool<span
+                                        <a href="" onclick="return true">About <span
                                                 class="menu-item_plus"></span></a>
                                         <!-- <a href="#" onclick="return true">Blog<span class="menu-item_plus"></span></a> -->
-                                        <!-- <ul class="sub-menu submenu menu-sub-content">
+                                         <ul class="sub-menu submenu menu-sub-content">
                                             <li id="menu-item-3925"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3925">
-                                                <a href="https://wp1.themevibrant.com/newwp/fxvibe/grid-view-01/"
-                                                    onclick="return true">Grid View 01<span
+                                                <a href=""
+                                                    onclick="return true">Contact<span
                                                         class="menu-item_plus"></span></a>
                                             </li>
-                                            <li id="menu-item-3924"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3924">
-                                                <a href="https://wp1.themevibrant.com/newwp/fxvibe/grid-view-02/"
-                                                    onclick="return true">Grid View 02<span
-                                                        class="menu-item_plus"></span></a>
-                                            </li>
-                                            <li id="menu-item-3926"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3926">
-                                                <a href="https://wp1.themevibrant.com/newwp/fxvibe/list-view-01/"
-                                                    onclick="return true">List View 01<span
-                                                        class="menu-item_plus"></span></a>
-                                            </li>
-                                            <li id="menu-item-3923"
-                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3923">
-                                                <a href="https://wp1.themevibrant.com/newwp/fxvibe/list-view-02/"
-                                                    onclick="return true">List View 02<span
-                                                        class="menu-item_plus"></span></a>
-                                            </li>
-                                            <li id="menu-item-4222"
-                                                class="menu-item menu-item-type-post_type menu-item-object-post menu-item-4222">
-                                                <a href="https://wp1.themevibrant.com/newwp/fxvibe/how-much-do-you-need-to-start-forex-trading-3/"
-                                                    onclick="return true">Single Post<span
-                                                        class="menu-item_plus"></span></a>
-                                            </li>
-                                        </ul> -->
-                                        <!-- <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div> -->
+                                           
+                                        </ul> 
+                                        <div class="dropdown-btn"><span class="fas fa-angle-down"></span></div>
                                     </li>
-                                    <li id="menu-item-4054"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4054">
-                                        <a href="/monitoring/" onclick="return true">Monitoring<span
-                                                class="menu-item_plus"></span></a>
-                                    </li>
+                                   
                                 </ul>
                             </div>
                         </div>
@@ -1980,7 +1813,8 @@
                             <div class="fxvibe-title-section">
                                 <div class="sec-title m-0">
                                     <!-- <h6 class="te-subtitle">What we Offer</h6> -->
-                                    <h2 class="te-title Sigma 1 Capital-size-default">Reasons To Trade <br> With sigma 1 capital</h2>
+                                    <h2 class="te-title Sigma 1 Capital-size-default">Reasons To Trade <br> With sigma 1
+                                        capital</h2>
                                 </div>
 
                             </div>
@@ -2002,7 +1836,8 @@
                                         <div class="inner-box Sigma 1 Capital-card m-0">
                                             <!-- <h6 class="te-subtitle">Service #1</h6> -->
                                             <h3 class="te-title"><a href="">Trade with Confidence</a></h3>
-                                            <p class="te-text">Your Path to Peace of Mind Begins with Our Top-Rated Trading Platform for Desktop and Mobile.
+                                            <p class="te-text">Your Path to Peace of Mind Begins with Our Top-Rated
+                                                Trading Platform for Desktop and Mobile.
 
                                             </p>
                                             <div class="image-box">
@@ -2031,7 +1866,8 @@
                                         <div class="inner-box Sigma 1 Capital-card m-0">
                                             <!-- <h6 class="te-subtitle">Service #2</h6> -->
                                             <h3 class="te-title"><a href="">Empowering Your Success</a></h3>
-                                            <p class="te-text">Trade Confidently with a Partner That Puts Your Interests First – No Conflicts, Just Your Path to Successful Trading.
+                                            <p class="te-text">Trade Confidently with a Partner That Puts Your Interests
+                                                First – No Conflicts, Just Your Path to Successful Trading.
 
                                             </p>
                                             <div class="image-box">
@@ -2060,7 +1896,8 @@
                                         <div class="inner-box Sigma 1 Capital-card m-0">
                                             <!-- <h6 class="te-subtitle">Service #3</h6> -->
                                             <h3 class="te-title"><a href="">Maximize Your Returns</a></h3>
-                                            <p class="te-text">Unlock Competitive Costs Tailored to Your Unique Trading and Investing Style – Make Your Money Go Further with Us .
+                                            <p class="te-text">Unlock Competitive Costs Tailored to Your Unique Trading
+                                                and Investing Style – Make Your Money Go Further with Us .
 
                                             </p>
                                             <div class="image-box">
@@ -2102,7 +1939,9 @@
                                         <div class="inner-box Sigma 1 Capital-card m-0">
                                             <!-- <h6 class="te-subtitle">Service #4</h6> -->
                                             <h3 class="te-title"><a href="">Swift and Seamless Execution</a></h3>
-                                            <p class="te-text">Experience Ultra-Fast Trade Execution as Your Orders are Instantly Processed through Our Extensive Network of Liquidity Providers Offering Real-Time Prices..
+                                            <p class="te-text">Experience Ultra-Fast Trade Execution as Your Orders are
+                                                Instantly Processed through Our Extensive Network of Liquidity Providers
+                                                Offering Real-Time Prices..
 
                                             </p>
                                             <div class="image-box">
@@ -2131,7 +1970,8 @@
                                         <div class="inner-box Sigma 1 Capital-card m-0">
                                             <!-- <h6 class="te-subtitle">Service #4</h6> -->
                                             <h3 class="te-title"><a href="">Unleash Profit Potential</a></h3>
-                                            <p class="te-text">Embrace High-Frequency Trading, Expert Advisors (EA’s), and Scalping – Your Gateway to Capturing Profits, One Trade at a Time.
+                                            <p class="te-text">Embrace High-Frequency Trading, Expert Advisors (EA’s),
+                                                and Scalping – Your Gateway to Capturing Profits, One Trade at a Time.
 
 
 
@@ -2149,7 +1989,7 @@
                                 </div>
                             </div>
                         </div>
-                      
+
                     </div>
                 </div>
             </div>
@@ -2505,8 +2345,8 @@
                     </div>
                 </div>
             </div> -->
-        
-           <div class="elementor-element elementor-element-0aa32c2 e-flex e-con-boxed e-con e-parent" data-id="0aa32c2"
+
+            <div class="elementor-element elementor-element-0aa32c2 e-flex e-con-boxed e-con e-parent" data-id="0aa32c2"
                 data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
                 <div class="e-con-inner">
                     <div class="elementor-element elementor-element-e674178 elementor-widget elementor-widget-fxvibe_hero_title"
@@ -2524,206 +2364,231 @@
                         </div>
                     </div>
                     <style>
-             
+                        table {
+                            color: white !important;
+                            width: 100%;
+                            border-collapse: collapse;
+                            table-layout: fixed;
 
+                            caption {
+                                font-size: 1.5em;
+                                margin: 10px;
+                            }
 
+                            th,
+                            td {
+                                padding: 10px;
+                                text-align: center;
+                            }
 
-table {
-    color: white !important;
-  width: 100%;
-  border-collapse: collapse;
-  table-layout: fixed;
-  caption {
-    font-size: 1.5em;
-    margin: 10px;
-  }
+                            th {
+                                font-size: 1em;
+                            }
+                        }
 
-  th,
-  td {
-    padding: 10px;
-    text-align: center;
-  }
-  th {
-    font-size: 1em;
-  }
-}
-
-@media screen and (max-width: 640px) {
- 
-}
-
+                        @media screen and (max-width: 640px) {}
                     </style>
-                  
+
                     <table>
                         <!-- <caption>Data Information Summary</caption> -->
                         <thead>
-                          <tr>
-                            <th scope="col"></th>
-                            <th scope="col">MetaTrader 4
-                            </th>
-                            <th scope="col">MetaTrader 5
-                            </th>
-                        
-                          </tr>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">MetaTrader 4
+                                </th>
+                                <th scope="col">MetaTrader 5
+                                </th>
+
+                            </tr>
                         </thead>
                         <tbody>
-                          <tr style="background-color: gray;">
-                            <td data-label="Data 1" style="font-weight: bold; "> Instruments</td>
-                            <td data-label="Data 2"></td>
-                            <td data-label="Data 3"> </td>
-                         
-                          </tr>
-                          <tr>
-                            <td data-label="Data 1" style="font-weight: bold;">Forex</td>
-                            <td data-label="Data 2"> <img style="width: 20px; height: 20px;" src="/asset/accept.png" alt=""></td>
-                            <td data-label="Data 3">  <img style="width: 20px; height: 20px;" src="/asset/accept.png" alt=""></td>
-                        
-                          </tr>
-                          <tr>
-                            <td data-label="Data 1" style="font-weight: bold;">Stocks</td>
-                            <td data-label="Data 2">  <img style="width: 20px; height: 20px;" src="/asset/accept.png" alt=""></td>
-                            <td data-label="Data 3">  <img style="width: 20px; height: 20px;" src="/asset/accept.png" alt=""></td>
-                       
-                          </tr>
-                          <tr>
-                            <td data-label="Data 1" style="font-weight: bold;"> Indices</td>
-                                  <td data-label="Data 2">  <img style="width: 20px; height: 20px;" src="/asset/accept.png" alt=""></td>
-                            <td data-label="Data 3">  <img style="width: 20px; height: 20px;" src="/asset/accept.png" alt=""></td>
-                     
-                          </tr>
-                          <tr>
-                            <td data-label="Data 1" style="font-weight: bold;"> Commodities
-                            </td>
-                                  <td data-label="Data 2">  <img style="width: 20px; height: 20px;" src="/asset/accept.png" alt=""></td>
-                            <td data-label="Data 3">  <img style="width: 20px; height: 20px;" src="/asset/accept.png" alt=""></td>
-                     
-                          </tr>
-                          <tr>
-                            <td data-label="Data 1" style="font-weight: bold;"> Cryptos</td>
-                                  <td data-label="Data 2">  <img style="width: 20px; height: 20px;" src="/asset/accept.png" alt=""></td>
-                            <td data-label="Data 3">  <img style="width: 20px; height: 20px;" src="/asset/accept.png" alt=""></td>
-                     
-                          </tr>
+                            <tr style="background-color: gray;">
+                                <td data-label="Data 1" style="font-weight: bold; "> Instruments</td>
+                                <td data-label="Data 2"></td>
+                                <td data-label="Data 3"> </td>
 
-                          <tr style="background-color: gray !important;">
-                            <td data-label="Data 1" style="font-weight: bold; "> Account type</td>
-                            <td data-label="Data 2"></td>
-                            <td data-label="Data 3"> </td>
-                         
-                          </tr>
-                          <tr>
-                            <td data-label="Data 1" style="font-weight: bold;">Gross Accounts</td>
-                            <td data-label="Data 2"> <img style="width: 20px; height: 20px;" src="/asset/accept.png" alt=""></td>
-                            <td data-label="Data 3">  <img style="width: 20px; height: 20px;" src="/asset/accept.png" alt=""></td>
-                        
-                          </tr>
-                          <tr>
-                            <td data-label="Data 1" style="font-weight: bold;">Net Accounts</td>
-                            <td data-label="Data 2">  <img  style="color: white; width: 20px; height: 20px;" src="/asset/delete-button.png" alt=""></td>
-                            <td data-label="Data 3">  <img style="width: 20px; height: 20px;" src="/asset/accept.png" alt=""></td>
-                       
-                          </tr>
+                            </tr>
+                            <tr>
+                                <td data-label="Data 1" style="font-weight: bold;">Forex</td>
+                                <td data-label="Data 2"> <img style="width: 20px; height: 20px;" src="/asset/accept.png"
+                                        alt=""></td>
+                                <td data-label="Data 3"> <img style="width: 20px; height: 20px;" src="/asset/accept.png"
+                                        alt=""></td>
 
-                          <tr style="background-color: gray;">
-                            <td data-label="Data 1" style="font-weight: bold; "> Features</td>
-                            <td data-label="Data 2"></td>
-                            <td data-label="Data 3"> </td>
-                         
-                          </tr>
-                          <tr>
-                            <td data-label="Data 1" style="font-weight: bold;">Depth of Market</td>
-                            <td data-label="Data 2"> <img style="width: 20px; height: 20px;" src="/asset/delete-button.png" alt=""></td>
-                            <td data-label="Data 3">  <img style="width: 20px; height: 20px;" src="/asset/accept.png" alt=""></td>
-                        
-                          </tr>
-                          <tr>
-                            <td data-label="Technical Analysis" style="font-weight: bold;">Technical Analysis</td>
-                            <td data-label="Data 2">  <img style="width: 20px; height: 20px;" src="/asset/accept.png" alt=""></td>
-                            <td data-label="Data 3">  <img style="width: 20px; height: 20px;" src="/asset/accept.png" alt=""></td>
-                       
-                          </tr>
-                          <tr>
-                            <td data-label="Data 1" style="font-weight: bold;"> Time and Sales</td>
-                                  <td data-label="Data 2">  <img style="width: 20px; height: 20px;" src="/asset/accept.png" alt=""></td>
-                            <td data-label="Data 3">  <img style="width: 20px; height: 20px;" src="/asset/accept.png" alt=""></td>
-                     
-                          </tr>
-                          <tr>
-                            <td data-label="Data 1" style="font-weight: bold;"> Back-testing
+                            </tr>
+                            <tr>
+                                <td data-label="Data 1" style="font-weight: bold;">Stocks</td>
+                                <td data-label="Data 2"> <img style="width: 20px; height: 20px;" src="/asset/accept.png"
+                                        alt=""></td>
+                                <td data-label="Data 3"> <img style="width: 20px; height: 20px;" src="/asset/accept.png"
+                                        alt=""></td>
 
-                            </td>
-                                  <td data-label="Data 2">  <img style="width: 20px; height: 20px;" src="/asset/accept.png" alt=""></td>
-                            <td data-label="Data 3">  <img style="width: 20px; height: 20px;" src="/asset/accept.png" alt=""></td>
-                     
-                          </tr>
-                          <tr>
-                            <td data-label="Data 1" style="font-weight: bold;"> Alerts</td>
-                                  <td data-label="Data 2">  <img style="width: 20px; height: 20px;" src="/asset/accept.png" alt=""></td>
-                            <td data-label="Data 3">  <img style="width: 20px; height: 20px;" src="/asset/accept.png" alt=""></td>
-                     
-                          </tr>
-                          <tr>
-                            <td data-label="Data 1" style="font-weight: bold;"> Server-side Alerts</td>
-                                  <td data-label="Data 2">  <img style="width: 20px; height: 20px;" src="/asset/delete-button.png" alt=""></td>
-                            <td data-label="Data 3">  <img style="width: 20px; height: 20px;" src="/asset/accept.png" alt=""></td>
-                     
-                          </tr>
-                          <tr>
-                            <td data-label="Data 1" style="font-weight: bold;"> Trading signals</td>
-                                  <td data-label="Data 2">  <img style="width: 20px; height: 20px;" src="/asset/accept.png" alt=""></td>
-                            <td data-label="Data 3">  <img style="width: 20px; height: 20px;" src="/asset/accept.png" alt=""></td>
-                     
-                          </tr>
+                            </tr>
+                            <tr>
+                                <td data-label="Data 1" style="font-weight: bold;"> Indices</td>
+                                <td data-label="Data 2"> <img style="width: 20px; height: 20px;" src="/asset/accept.png"
+                                        alt=""></td>
+                                <td data-label="Data 3"> <img style="width: 20px; height: 20px;" src="/asset/accept.png"
+                                        alt=""></td>
+
+                            </tr>
+                            <tr>
+                                <td data-label="Data 1" style="font-weight: bold;"> Commodities
+                                </td>
+                                <td data-label="Data 2"> <img style="width: 20px; height: 20px;" src="/asset/accept.png"
+                                        alt=""></td>
+                                <td data-label="Data 3"> <img style="width: 20px; height: 20px;" src="/asset/accept.png"
+                                        alt=""></td>
+
+                            </tr>
+                            <tr>
+                                <td data-label="Data 1" style="font-weight: bold;"> Cryptos</td>
+                                <td data-label="Data 2"> <img style="width: 20px; height: 20px;" src="/asset/accept.png"
+                                        alt=""></td>
+                                <td data-label="Data 3"> <img style="width: 20px; height: 20px;" src="/asset/accept.png"
+                                        alt=""></td>
+
+                            </tr>
+
+                            <tr style="background-color: gray !important;">
+                                <td data-label="Data 1" style="font-weight: bold; "> Account type</td>
+                                <td data-label="Data 2"></td>
+                                <td data-label="Data 3"> </td>
+
+                            </tr>
+                            <tr>
+                                <td data-label="Data 1" style="font-weight: bold;">Gross Accounts</td>
+                                <td data-label="Data 2"> <img style="width: 20px; height: 20px;" src="/asset/accept.png"
+                                        alt=""></td>
+                                <td data-label="Data 3"> <img style="width: 20px; height: 20px;" src="/asset/accept.png"
+                                        alt=""></td>
+
+                            </tr>
+                            <tr>
+                                <td data-label="Data 1" style="font-weight: bold;">Net Accounts</td>
+                                <td data-label="Data 2"> <img style="color: white; width: 20px; height: 20px;"
+                                        src="/asset/delete-button.png" alt=""></td>
+                                <td data-label="Data 3"> <img style="width: 20px; height: 20px;" src="/asset/accept.png"
+                                        alt=""></td>
+
+                            </tr>
+
+                            <tr style="background-color: gray;">
+                                <td data-label="Data 1" style="font-weight: bold; "> Features</td>
+                                <td data-label="Data 2"></td>
+                                <td data-label="Data 3"> </td>
+
+                            </tr>
+                            <tr>
+                                <td data-label="Data 1" style="font-weight: bold;">Depth of Market</td>
+                                <td data-label="Data 2"> <img style="width: 20px; height: 20px;"
+                                        src="/asset/delete-button.png" alt=""></td>
+                                <td data-label="Data 3"> <img style="width: 20px; height: 20px;" src="/asset/accept.png"
+                                        alt=""></td>
+
+                            </tr>
+                            <tr>
+                                <td data-label="Technical Analysis" style="font-weight: bold;">Technical Analysis</td>
+                                <td data-label="Data 2"> <img style="width: 20px; height: 20px;" src="/asset/accept.png"
+                                        alt=""></td>
+                                <td data-label="Data 3"> <img style="width: 20px; height: 20px;" src="/asset/accept.png"
+                                        alt=""></td>
+
+                            </tr>
+                            <tr>
+                                <td data-label="Data 1" style="font-weight: bold;"> Time and Sales</td>
+                                <td data-label="Data 2"> <img style="width: 20px; height: 20px;" src="/asset/accept.png"
+                                        alt=""></td>
+                                <td data-label="Data 3"> <img style="width: 20px; height: 20px;" src="/asset/accept.png"
+                                        alt=""></td>
+
+                            </tr>
+                            <tr>
+                                <td data-label="Data 1" style="font-weight: bold;"> Back-testing
+
+                                </td>
+                                <td data-label="Data 2"> <img style="width: 20px; height: 20px;" src="/asset/accept.png"
+                                        alt=""></td>
+                                <td data-label="Data 3"> <img style="width: 20px; height: 20px;" src="/asset/accept.png"
+                                        alt=""></td>
+
+                            </tr>
+                            <tr>
+                                <td data-label="Data 1" style="font-weight: bold;"> Alerts</td>
+                                <td data-label="Data 2"> <img style="width: 20px; height: 20px;" src="/asset/accept.png"
+                                        alt=""></td>
+                                <td data-label="Data 3"> <img style="width: 20px; height: 20px;" src="/asset/accept.png"
+                                        alt=""></td>
+
+                            </tr>
+                            <tr>
+                                <td data-label="Data 1" style="font-weight: bold;"> Server-side Alerts</td>
+                                <td data-label="Data 2"> <img style="width: 20px; height: 20px;"
+                                        src="/asset/delete-button.png" alt=""></td>
+                                <td data-label="Data 3"> <img style="width: 20px; height: 20px;" src="/asset/accept.png"
+                                        alt=""></td>
+
+                            </tr>
+                            <tr>
+                                <td data-label="Data 1" style="font-weight: bold;"> Trading signals</td>
+                                <td data-label="Data 2"> <img style="width: 20px; height: 20px;" src="/asset/accept.png"
+                                        alt=""></td>
+                                <td data-label="Data 3"> <img style="width: 20px; height: 20px;" src="/asset/accept.png"
+                                        alt=""></td>
+
+                            </tr>
                         </tbody>
-                      </table>
-                      
+                    </table>
+
                     <!-- sdmksd -->
                 </div>
             </div>
 
 
             <div class="elementor-element elementor-element-d34f526 e-con-full e-flex e-con e-parent" data-id="d34f526"
-            data-element_type="container">
-            <div class="elementor-element elementor-element-6bfe82d elementor-widget elementor-widget-fxvibe_animation_image"
-                data-id="6bfe82d" data-element_type="widget" data-widget_type="fxvibe_animation_image.default">
-                <div class="elementor-widget-container">
+                data-element_type="container">
+                <div class="elementor-element elementor-element-6bfe82d elementor-widget elementor-widget-fxvibe_animation_image"
+                    data-id="6bfe82d" data-element_type="widget" data-widget_type="fxvibe_animation_image.default">
+                    <div class="elementor-widget-container">
 
 
 
-                    <section class="pairs-section p-0 m-0">
-                        <div class="pattern-layer te-img-position"
-                            style="background-image: url(https://wp1.themevibrant.com/newwp/fxvibe/wp-content/uploads/2024/02/shape-6.png);">
-                        </div>
-                        <div class="image-layer">
-                            <figure class="image-1 te-img-position-v2"><img decoding="async"
-                                    src="https://wp1.themevibrant.com/newwp/fxvibe/wp-content/uploads/2024/02/vector-3.png"
-                                    alt="Awesome Image"></figure>
-                            <figure class="image-2 te-img-position-v3"><img decoding="async"
-                                    src="https://wp1.themevibrant.com/newwp/fxvibe/wp-content/uploads/2024/02/vector-4.png"
-                                    alt="Awesome Image"></figure>
-                        </div>
-                    </section>
+                        <section class="pairs-section p-0 m-0">
+                            <div class="pattern-layer te-img-position"
+                                style="background-image: url(https://wp1.themevibrant.com/newwp/fxvibe/wp-content/uploads/2024/02/shape-6.png);">
+                            </div>
+                            <div class="image-layer">
+                                <figure class="image-1 te-img-position-v2"><img decoding="async"
+                                        src="https://wp1.themevibrant.com/newwp/fxvibe/wp-content/uploads/2024/02/vector-3.png"
+                                        alt="Awesome Image"></figure>
+                                <figure class="image-2 te-img-position-v3"><img decoding="async"
+                                        src="https://wp1.themevibrant.com/newwp/fxvibe/wp-content/uploads/2024/02/vector-4.png"
+                                        alt="Awesome Image"></figure>
+                            </div>
+                        </section>
 
+                    </div>
                 </div>
-            </div>
-            <div class="elementor-element elementor-element-ee617f6 e-flex e-con-boxed e-con e-child"
-                data-id="ee617f6" data-element_type="container">
-                <div class="e-con-inner">
-                    <div class="elementor-element elementor-element-d935b29 elementor-widget elementor-widget-fxvibe_hero_title"
-                        data-id="d935b29" data-element_type="widget" data-widget_type="fxvibe_hero_title.default">
-                        <div class="elementor-widget-container">
+                <div class="elementor-element elementor-element-ee617f6 e-flex e-con-boxed e-con e-child"
+                    data-id="ee617f6" data-element_type="container">
+                    <div class="e-con-inner">
+                        <div class="elementor-element elementor-element-d935b29 elementor-widget elementor-widget-fxvibe_hero_title"
+                            data-id="d935b29" data-element_type="widget" data-widget_type="fxvibe_hero_title.default">
+                            <div class="elementor-widget-container">
 
-                            <div class="fxvibe-title-section">
-                                <div class="sec-title m-0">
-                                    <h2 class="te-title Sigma 1 Capital-size-default">LOW SPREADS ON MORE THAN 150 INSTRUMENTS</h2>
-                                    <h6 class="te-subtitle">Crownstone score low spreads on more than 150 instruments as you see below</h6>
+                                <div class="fxvibe-title-section">
+                                    <div class="sec-title m-0">
+                                        <h2 class="te-title Sigma 1 Capital-size-default">LOW SPREADS ON MORE THAN 150
+                                            INSTRUMENTS</h2>
+                                        <h6 class="te-subtitle">Crownstone score low spreads on more than 150
+                                            instruments as you see below</h6>
+                                    </div>
+
                                 </div>
 
                             </div>
-
                         </div>
-                    </div>
-                    <!-- <div class="elementor-element elementor-element-6070379 e-flex e-con-boxed e-con e-child"
+                        <!-- <div class="elementor-element elementor-element-6070379 e-flex e-con-boxed e-con e-child"
                         data-id="6070379" data-element_type="container">
                         <div class="e-con-inner">
                             <div class="elementor-element elementor-element-a44dd7a elementor-widget elementor-widget-fxvibe_popular_pairs"
@@ -2893,13 +2758,15 @@ table {
                             </div>
                         </div>
                     </div> -->
-              
 
-                    <iframe scrolling="no" allowtransparency="true" frameborder="0" src="https://s.tradingview.com/embed-widget/market-quotes/?locale=en#%7B%22width%22%3A770%2C%22height%22%3A450%2C%22showSymbolLogo%22%3Atrue%2C%22symbolsGroups%22%3A%5B%7B%22name%22%3A%22Major%22%2C%22symbols%22%3A%5B%7B%22name%22%3A%22FX_IDC%3AEURUSD%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AUSDJPY%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AGBPUSD%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AAUDUSD%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AUSDCAD%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AUSDCHF%22%7D%5D%7D%2C%7B%22name%22%3A%22Minor%22%2C%22symbols%22%3A%5B%7B%22name%22%3A%22FX_IDC%3AEURGBP%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AEURJPY%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AGBPJPY%22%7D%2C%7B%22name%22%3A%22FX_IDC%3ACADJPY%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AGBPCAD%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AEURCAD%22%7D%5D%7D%2C%7B%22name%22%3A%22Exotic%22%2C%22symbols%22%3A%5B%7B%22name%22%3A%22FX_IDC%3AUSDSEK%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AUSDMXN%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AUSDZAR%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AEURTRY%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AEURNOK%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AGBPPLN%22%7D%5D%7D%5D%2C%22colorTheme%22%3A%22light%22%2C%22utm_source%22%3A%22www.duttfxmarkets.net%22%2C%22utm_medium%22%3A%22widget%22%2C%22utm_campaign%22%3A%22market-quotes%22%2C%22page-uri%22%3A%22www.duttfxmarkets.net%2F%22%7D" style="box-sizing: border-box; height: 450px; width:98%;"></iframe>
+
+                        <iframe scrolling="no" allowtransparency="true" frameborder="0"
+                            src="https://s.tradingview.com/embed-widget/market-quotes/?locale=en#%7B%22width%22%3A770%2C%22height%22%3A450%2C%22showSymbolLogo%22%3Atrue%2C%22symbolsGroups%22%3A%5B%7B%22name%22%3A%22Major%22%2C%22symbols%22%3A%5B%7B%22name%22%3A%22FX_IDC%3AEURUSD%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AUSDJPY%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AGBPUSD%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AAUDUSD%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AUSDCAD%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AUSDCHF%22%7D%5D%7D%2C%7B%22name%22%3A%22Minor%22%2C%22symbols%22%3A%5B%7B%22name%22%3A%22FX_IDC%3AEURGBP%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AEURJPY%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AGBPJPY%22%7D%2C%7B%22name%22%3A%22FX_IDC%3ACADJPY%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AGBPCAD%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AEURCAD%22%7D%5D%7D%2C%7B%22name%22%3A%22Exotic%22%2C%22symbols%22%3A%5B%7B%22name%22%3A%22FX_IDC%3AUSDSEK%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AUSDMXN%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AUSDZAR%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AEURTRY%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AEURNOK%22%7D%2C%7B%22name%22%3A%22FX_IDC%3AGBPPLN%22%7D%5D%7D%5D%2C%22colorTheme%22%3A%22light%22%2C%22utm_source%22%3A%22www.duttfxmarkets.net%22%2C%22utm_medium%22%3A%22widget%22%2C%22utm_campaign%22%3A%22market-quotes%22%2C%22page-uri%22%3A%22www.duttfxmarkets.net%2F%22%7D"
+                            style="box-sizing: border-box; height: 450px; width:98%;"></iframe>
+                    </div>
                 </div>
             </div>
-        </div>
-        
+
             <div class="elementor-element elementor-element-5fda37a e-flex e-con-boxed e-con e-parent" data-id="5fda37a"
                 data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                 <div class="e-con-inner">
@@ -2946,7 +2813,8 @@ table {
                                                         alt="Awesome Image"></div>
                                                 <h6 class="te-subtitle">Step #1</h6>
                                                 <div class="inner-box">
-                                                    <h3 class="te-title">Register with Crownstone and verify your account.
+                                                    <h3 class="te-title">Register with Crownstone and verify your
+                                                        account.
                                                     </h3>
                                                     <!-- <p class="te-text">Nor again is there anyone who loves or pursues or
                                                         desires to obtain pain all itself because it is pain.</p> -->
@@ -2960,7 +2828,8 @@ table {
                                                         alt="Awesome Image"></div>
                                                 <h6 class="te-subtitle">Step #2</h6>
                                                 <div class="inner-box">
-                                                    <h3 class="te-title">Open a trading account and download Metatrader 5
+                                                    <h3 class="te-title">Open a trading account and download Metatrader
+                                                        5
                                                     </h3>
                                                     <!-- <p class="te-text">One rejects, dislikes avoids pleasure itself,
                                                         because it is pleasure but those who do not know pain.</p> -->
@@ -2974,7 +2843,8 @@ table {
                                                         alt="Awesome Image"></div>
                                                 <h6 class="te-subtitle">Step #3</h6>
                                                 <div class="inner-box">
-                                                    <h3 class="te-title">Log in to your trading account and start trading.
+                                                    <h3 class="te-title">Log in to your trading account and start
+                                                        trading.
                                                     </h3>
                                                     <!-- <p class="te-text">Ever undertakes laborious physical exercise
                                                         except obtain all advantages from ight to find.</p> -->
@@ -3027,8 +2897,8 @@ table {
                                                             class="te-tab-btn">Standard Plan</span></li>
                                                     <li class="tab-btn " data-tab="#tab-11"><span
                                                             class="te-tab-btn">Elite Plan</span></li>
-                                                    <li class="tab-btn " data-tab="#tab-12"><span
-                                                            class="te-tab-btn">Pro Plan
+                                                    <li class="tab-btn " data-tab="#tab-12"><span class="te-tab-btn">Pro
+                                                            Plan
                                                         </span></li>
                                                     <!-- <li class="tab-btn " data-tab="#tab-13"><span
                                                             class="te-tab-btn">Ultra Plan</span></li> -->
@@ -3054,7 +2924,29 @@ table {
                                                 </ul>
                                             </div>
                                         </div>
+                                        <style>
+                                            .metaTrade {
+                                                display: none !important;
+                                                ;
+                                            }
 
+                                            .metaTrade1 {
+                                                display: block !important;
+                                                ;
+                                            }
+
+                                            @media (max-width: 768px) {
+                                                .metaTrade {
+                                                    display: block !important;
+                                                    ;
+                                                }
+
+                                                .metaTrade1 {
+                                                    display: none !important;
+                                                    ;
+                                                }
+                                            }
+                                        </style>
                                         <div class="col-lg-9 col-md-12 col-sm-12 right-column">
                                             <div class="tabs-content">
                                                 <div class="tab active-tab" id="tab-10">
@@ -3094,12 +2986,15 @@ table {
                                                                                     Swap free<span>No</span> </li>
                                                                                 <li>
                                                                                     Commission<span>No</span> </li>
-                                                                                <li>
+                                                                                <li class="metaTrade1">
                                                                                     Platform<span>MetaTrader 5</span>
+                                                                                </li>
+                                                                                <li class="metaTrade">
+                                                                                    Platform<span>MT 5</span>
                                                                                 </li>
                                                                                 <li>
                                                                                     Currency<span>USD</span>
-                                                                                     <!-- <span></span> -->
+                                                                                    <!-- <span></span> -->
                                                                                 </li>
                                                                                 <li>
                                                                                     Min. Deposit<span>$1000</span>
@@ -3153,8 +3048,11 @@ table {
                                                                                     Swap free<span>No</span> </li>
                                                                                 <li>
                                                                                     Commission<span>No</span> </li>
-                                                                                <li>
+                                                                                <li class="metaTrade1">
                                                                                     Platform<span>MetaTrader 5</span>
+                                                                                </li>
+                                                                                <li class="metaTrade">
+                                                                                    Platform<span>MT 5</span>
                                                                                 </li>
                                                                                 <li>
                                                                                     Currency <span>USD</span>
@@ -3211,8 +3109,11 @@ table {
                                                                                     Swap free<span>No</span> </li>
                                                                                 <li>
                                                                                     Commission<span>Yes</span> </li>
-                                                                                <li>
+                                                                                <li class="metaTrade1">
                                                                                     Platform<span>MetaTrader 5</span>
+                                                                                </li>
+                                                                                <li class="metaTrade">
+                                                                                    Platform<span>MT 5</span>
                                                                                 </li>
                                                                                 <li>
                                                                                     Currency <span>USD</span>
@@ -3301,11 +3202,11 @@ table {
                     </div>
                 </div>
             </div>
-           
-         
-          
-        
-       
+
+
+
+
+
         </div>
 
 
@@ -3347,7 +3248,8 @@ table {
                                     </p>
                                     <p>You are stronggly advised to obtain independent financial, legal and tax advice
                                         before proceeding with any currency or metals trade. Nothing in this site should
-                                        be read or construed as constituting advice on the part of Sigma 1 Capital Ltd or
+                                        be read or construed as constituting advice on the part of Sigma 1 Capital Ltd
+                                        or
                                         any of its affiliates, directors, officers or employees. Restricted Regions:
                                         Sigma 1 Capital Limited does not provide services for citizens/residents of the
                                         United States, Cuba, Iraq, Myanmar, North Korea, Sudan. The services of Fiscal
@@ -3367,7 +3269,7 @@ table {
 
                             </div>
                         </div>
-                  
+
                     </div>
 
                 </div>
